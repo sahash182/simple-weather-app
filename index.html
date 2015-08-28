@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="WeatherApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- bootstrap css -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- angular -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.4/angular.min.js"></script>
+
+  <!-- resources script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.min.js"></script>
+  
+  <!-- custom script -->
+  <script type="text/javascript" src="app.js"></script>
+  <title>Weather App</title>
+</head>
+<body>
+<div ng-view></div>
+	<!-- <form ng-submit="createCity()">
+	<div class="form-group">
+        <input type="text" ng-model="cities" class="form-control" placeholder="Author">
+        <input type="submit" value="submit" class="btn btn-default">
+    </div>
+	</form> -->
+
+	
+	<current-weather city="San Francisco"></current-weather>
+
+	
+
+
+
+</body>
+</html>
